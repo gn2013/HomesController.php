@@ -1,9 +1,8 @@
-LOOK I ADDED THIS
 <?php
 App::uses('AppController', 'Controller');
 
 class HomesController extends AppController {
-  
+	
 	var $uses = array('User','PlaceType','Place','UserMailAlert','UserMobileAlert','Room','PlaceImage','PlaceVideo','PlaceRule','RoomImage','RatingByGuest','SendCard','RoomPayment','Page','Mail','Booking','Refund','AdminFund','UnavailableDate','HelpCategory','Help','Internship','Review','ScheduledPayment','ReviewResponse');
 	public $components = array('Auth','Cookie','Session','RequestHandler','Email','DATA','THmail','Map','Payment','Crypter');
 	public $helpers = array('Html', 'Form','JqueryEngine','Session','Text','Time');
